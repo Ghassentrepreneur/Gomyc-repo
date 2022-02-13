@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   
+  <!--Nav Bar Section-->
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a  class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link">About Us</a>
+              </li>
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+ 
+
+
+
+
+    
+  <!--About Us Section-->
+<section id="core">
+    <div class="container-left">
+    <h2>What we do</h2>
+    <h5>Cimapicoltura</h5>
+    <p class="text">we expertise in natural end honey bee , pollinated from an array of
+        wild camps  both in Italy and Tunisia we take care of the whole process , from pollination ,jars filling and packaging ,
+        to wholesale and retailing
+        we expertise in natural end honey bee , pollinated from an array of
+        wild camps  both in Italy and Tunisia we take care of the whole process , from pollination ,jars filling and packaging ,
+        to wholesale and retailing</p>
+      
+    </div>
+    <div  class="container-right">
+        <img class ="Cimapicoltura-img" src="montagnes tunisien.jpg">
+    </div>
+
+
+</section> 
+  <!--Caroussel Section-->
+<section id="carousel-container">
+   
+    <h1 class="caroussel-title">Our products</h1>
+
+    <div class="carousel">
+        
+        <button class="carousel__button previous" id="previous">PREVIOUS</button>
+        <div class="carousel__images">
+          <img class="img-caroussel" class="active" src="C:\Users\Ghassentrepreneur\OneDrive\Desktop\final project\miel eucalyptus.jpg" alt="">
+          <img class="img-caroussel"src="C:\Users\Ghassentrepreneur\OneDrive\Desktop\final project\miele castagno.jpg" alt="">
+          <img class="img-caroussel" src="C:\Users\Ghassentrepreneur\OneDrive\Desktop\final project\miele tiglio.jpg" alt="">
+          <img  class="img-caroussel" src="C:\Users\Ghassentrepreneur\OneDrive\Desktop\final project\mille fiori.jpg" alt="">
+          <img class="img-caroussel" src="C:\Users\Ghassentrepreneur\OneDrive\Desktop\final project\montagnes tunisien.jpg" alt="">
+        </div>
+        <button class="carousel__button next" id="next"> NEXT</button>
+      </div>
+
+</section>
+
+
+  <!--Contact Us Section-->
+ <section class="formValid">
+ <div class="contact-heading">
+     <h2>Contact Us</h2>
+     <h3>get your honey and be healthy !</h3>   
+ </div>
+
+<p id="error"></p>
+<form id="form"> 
+<div class="form-element">
+    <label for="name">Name</label>
+    <input id="name" name="name" type="text" placeholder="My Name" >
+</div>
+
+<div class="form-element" >
+    <label for="email">Mail Adress</label>
+    <input type="text" id="email" placeholder="exemple@gmail.com">
+
+</div>
+
+<div class="form-element">
+    <label for="number">Phone Number</label>
+    <input type="text" id="email" placeholder="+216 24 589 869 ">
+
+</div>
+<div class="form-element">
+    <label for="text">Message</label>
+   <textarea></textarea>
+</div>
+
+
+<!-- <div>
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" placeholder="enter password here"> 
+</div> -->
+<button type="submit" class="btn btn-success">Submit</button>
+</form>
+</section> 
+
+
+
+<!--Footer-->
+
+<footer class="footer-07">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12 text-center">
+                <h2 class="footer-heading"><a href="#" class="logo">Cimapicoltura</a></h2>
+                <p class="menu">
+                    <a href="#">Home</a>
+                    <a href="#">Agent</a>
+                    <a href="#">About</a>
+           
+                </p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12 text-center">
+                <p class="copyright">
+            Copyright &copy;  All rights reserved | This template is made by Ghassen Mansouri </p>
+             
+            </div>
+        </div>
+    </div>
+</footer> 
+<script src="index.js"></script>
+
+
+</body>
+</html>
